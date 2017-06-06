@@ -1,0 +1,70 @@
+body {
+	background:#fff5e1;
+	font-family: bebas;
+	text-align: center;
+}
+
+h1 {
+	font-size: 56px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	color: #3b3b3b;
+}
+
+h2 {
+	font-size: 25px;
+	letter-spacing: 0px;
+	word-spacing: 5px;
+	color: #3b3b3b;
+}
+
+h3 {
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 5px;
+	color: #3b3b3b;
+}
+
+a {
+	color: blue;
+}
+
+p {
+	padding: 10px;
+}
+
+header {
+	background: #999;
+	color: white;
+}
+
+header h1{
+	margin: 0;
+	display: inline;
+}
+
+body {
+  margin: 2rem;
+}
+#video-compare-container {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+  padding-top: 42.3%;
+}
+#video-compare-container > video {
+  width: 100%;
+  position: absolute;
+  top: 0; height: 100%;
+}
+#video-clipper {
+  width: 50%; position: absolute;
+  top: 0; bottom: 0;
+  overflow: hidden;
+}
+#video-clipper video {
+  width: 200%;
+  postion: absolute;
+  height: 100%;
+}
